@@ -15,14 +15,18 @@
         <h1>Robot Translator</h1>
       </div>
 
-      <form id="inputNumber">
-        <label for="number">Enter a number:</label>
-        <input type="text" id="number" class="form-control"><br>
-        <button type="submit" name="button" class="btn btn-success">Submit</button>
-      </form>
+      <div class="row">
+        <div class="col-6">
+          <form id="inputNumber">
+            <label for="number">Enter a number:</label>
+            <input type="text" id="number" class="form-control"><br>
+            <button type="submit" name="button" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-6" id="output">
+          <p id="results"></p>
+        </div>
 
-      <div class="translated">
-        <p id="results"></p>
       </div>
 
     </div>

@@ -16,3 +16,16 @@ h1 {
 #bodyStuff {
   padding-top: 30px;
 }
+
+#header {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#output {
+  background-color: #eee;
+  border-radius: 10px;
+
+}
