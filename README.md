@@ -39,6 +39,14 @@ _For multiple input numbers separated by a space, program returns translation of
 _Input: 1 2_
 _Output: 0 Beep 0 Beep Boop_
 
+_When users input a name, program returns the name instead of Dave_
+_Input: George_
+_Output: I'm sorry George, I can't do that_
+
+_When users do not input a name, program returns Dave_
+_Input:_
+_Output: I'm sorry Dave, I can't do that_
+
 ## Support and Contact Details
 
 _For issues contact support@leepedersen.com_

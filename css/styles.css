@@ -9,7 +9,7 @@ body {
 
 #doctor {
   transform: scalex(-1);
-  width: 150px;
+  width: 80px;
   position: fixed;
   bottom: 10px;
 }
@@ -36,6 +36,6 @@ h1 {
   border-radius: 10px;
 }
 
-#numberLabel {
+label {
   font-size: 20px;
 }
