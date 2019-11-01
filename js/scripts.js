@@ -2,9 +2,16 @@
 function robotReply(input) {
   var range = [];
   for (i = 0; i <= input; i++) {
-    range.push(i);
+    if (i.toString().includes("3")) {
+      range.splice(i, 1, "I'm sorry, Dave. I'm afraid I can't do that.");
+    } else if (i.toString().includes("2")) {
+      range.splice(i, 1, "Boop");
+    } else if (i.toString().includes("1")) {
+      range.splice(i, 1, "Beep");
+    } else {
+      range.push(i);
+    }
   }
-  console.log(range);
   return(range);
 }
 
