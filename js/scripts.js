@@ -5,6 +5,7 @@ function robotReply(input, nameInput) {
   var numberArray = input.split(" ");
   var range = [];
   var output = [];
+  var vowels = ["a", "e", "i", "o", "u", "y"]
 
   if (!nameInput) {
     nameInput = "Dave";
@@ -13,13 +14,22 @@ function robotReply(input, nameInput) {
   for (j = 0; j < numberArray.length; j++) {
 
     if (!Number.isInteger(parseInt(numberArray[j]))) {
-      var beep = "B";
-      for (k = 0; k < numberArray[j].length; k++) {
-        beep = beep.concat("ee");
+
+      var nameArray = nameInput.split("");
+      var firstVowel = "";
+
+      for (l = 0; l < nameArray.length; l++) {
+        if (vowels.includes(nameArray[l])) {
+          for (k = 0; k < numberArray[j].length; k++) {
+            nameArray.splice(l, 0, nameArray[l]);
+          }
+          range.push(nameArray.join("") + " that's not an integer");
+          l = l + nameArray.length;
+         }
+        }
       }
-      beep = beep.concat("p");
-      range.push(beep);
-    }
+
+
 
     for (i = 0; i <= numberArray[j]; i++) {
 
