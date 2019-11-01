@@ -1,4 +1,6 @@
 
+// Business Logic
+
 function robotReply(input) {
   var range = [];
   for (i = 0; i <= input; i++) {
@@ -15,11 +17,8 @@ function robotReply(input) {
   return(range);
 }
 
+// User Interface Logic
 
-
-
-
-// User Logic
 $(document).ready(function() {
 
   $('#inputNumber').submit(function(ev) {
