@@ -1,7 +1,6 @@
 
 // Business Logic
 
-
 function robotReply(input, nameInput) {
   var numberArray = input.split(" ");
   var range = [];
@@ -12,15 +11,18 @@ function robotReply(input, nameInput) {
   }
 
   for (j = 0; j < numberArray.length; j++) {
+
     if (!Number.isInteger(numberArray[j])) {
       var beep = "B"
         for (k = 0; k < numberArray[j].length; k++) {
           beep = beep.concat("e");
-          console.log(beep);
         }
-//      beep = beep.concat("p");
+      beep = beep.concat("p");
       range.push(beep);
     }
+
+    console.log(range);
+
 
     for (i = 0; i <= numberArray[j]; i++) {
       if (i.toString().includes("3")) {
@@ -33,8 +35,9 @@ function robotReply(input, nameInput) {
         range.push(i);
       }
     }
-    output.push(range.join(", "));
   }
+  output.push(range.join(", "));
+  console.log(beep);
 
   return(output.join(", "));
 }
