@@ -20,25 +20,24 @@ _No known bugs_
 ## Specs
 
 _The program returns a range of numbers from 0 to the users inputted number
-Input: "4"
-Output: "0, 1, 2, 3, 4"_
+_Input: "4"_
+_Output: "0, 1, 2, 3, 4"_
 
 _For input number 3, program returns "sorry dave"
-Input: 3
-Output: "I'm sorry, Dave. I'm afraid I can't do that."_
+_Input: 3_
+_Output: "I'm sorry, Dave. I'm afraid I can't do that."_
 
 _For input numbers that contain 2's and 1's, program returns, respectively, boops and beeps
-Input: 2
-Output: "boop"_
+_Input: 2_
+_Output: "boop"_
 
 _For multiple digit input numbers, program replaces whole number with replacement text
-Input: 14
-Output: beep_
+_Input: 14_
+_Output: beep_
 
-_For multiple input numbers separated by a space, program returns translation of each number
-Input: 1 2
-Output: 0 Beep 0 Beep Boop_
-
+_For multiple input numbers separated by a space, program returns translation of each number_
+_Input: 1 2_
+_Output: 0 Beep 0 Beep Boop_
 
 ## Support and Contact Details
 

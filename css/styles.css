@@ -4,10 +4,15 @@
 
 body {
   font-family: monospace;
+  background-image: url(img/voyager.jpg);
 }
 
 h1 {
   font-variant: small-caps;
   text-align: center;
   font-size: 60px;
+}
+
+#bodyStuff {
+  padding-top: 30px;
 }
