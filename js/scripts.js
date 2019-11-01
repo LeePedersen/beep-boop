@@ -16,20 +16,20 @@ function robotReply(input, nameInput) {
     if (!Number.isInteger(parseInt(numberArray[j]))) {
 
       var nameArray = nameInput.split("");
-      var firstVowel = "";
 
       for (l = 0; l < nameArray.length; l++) {
-        if (vowels.includes(nameArray[l])) {
+        if (vowels.includes(nameArray[l].toLowerCase())) {
           for (k = 0; k < numberArray[j].length; k++) {
-            nameArray.splice(l, 0, nameArray[l]);
+            nameArray.splice(l + 1, 0, nameArray[l].toLowerCase());
           }
-          range.push(nameArray.join("") + " that's not an integer");
+
           l = l + nameArray.length;
-         }
         }
+
       }
+      range.push(nameArray.join("") + " that's not an integer");
 
-
+    }
 
     for (i = 0; i <= numberArray[j]; i++) {
 
@@ -53,8 +53,8 @@ function robotReply(input, nameInput) {
 
 $(document).ready(function() {
 
-  $('#inputNumber').submit(function(ev) {
-    ev.preventDefault();
+  $('#inputNumber').submit(function(event) {
+    event.preventDefault();
     var number = $("#number").val();
     var name = $("#name").val();
     var result = robotReply(number, name);
