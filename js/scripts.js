@@ -7,17 +7,16 @@ function robotReply(input, nameInput) {
   var output = [];
 
   if (!nameInput) {
-    nameInput = "Dave"
+    nameInput = "Dave";
   }
 
   for (j = 0; j < numberArray.length; j++) {
 
     if (!Number.isInteger(parseInt(numberArray[j]))) {
-  
-      var beep = "B"
-        for (k = 0; k < numberArray[j].length; k++) {
-          beep = beep.concat("e");
-        }
+      var beep = "B";
+      for (k = 0; k < numberArray[j].length; k++) {
+        beep = beep.concat("e");
+      }
       beep = beep.concat("p");
       range.push(beep);
     }
