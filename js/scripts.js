@@ -4,7 +4,7 @@
 function robotReply(input, nameInput) {
   var numberArray = input.split(" ");
   var output = [];
-  var vowels = ["a", "e", "i", "o", "u", "y"]
+  var vowels = ["a", "e", "i", "o", "u", "y"];
 
   if (!nameInput) {
     nameInput = "Dave";
