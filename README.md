@@ -1,17 +1,61 @@
-Program returns
+# _Beep Boop_
 
-x The program returns a range of numbers from 0 to the users inputted number
+#### _Site for returning strange output_
+
+#### By _**Lee Pedersen**_
+
+## Description
+
+_This site takes in user input numbers and then returns all numbers leading up to that number, excepting numbers containing 1, 2, and 3, which return different strings instead._
+
+## Setup/Installation Requirements
+
+* _Clone to machine_
+* _Open in browser_
+
+## Known Bugs
+
+_No known bugs_
+
+## Specs
+
+_The program returns a range of numbers from 0 to the users inputted number
 Input: "4"
-Output: "0, 1, 2, 3, 4"
+Output: "0, 1, 2, 3, 4"_
 
-x For input number 3, program returns "sorry dave"
+_For input number 3, program returns "sorry dave"
 Input: 3
-Output: "I'm sorry, Dave. I'm afraid I can't do that."
+Output: "I'm sorry, Dave. I'm afraid I can't do that."_
 
-x For input numbers that contain 2's and 1's, program returns, respectively, boops and beeps
+_For input numbers that contain 2's and 1's, program returns, respectively, boops and beeps
 Input: 2
-Output: "boop"
+Output: "boop"_
 
-x For multiple digit input numbers, program replaces whole number with replacement text.
+_For multiple digit input numbers, program replaces whole number with replacement text
 Input: 14
-Output: beep
+Output: beep_
+
+
+## Support and Contact Details
+
+_For issues contact support@leepedersen.com_
+
+## Technologies Used
+
+_HTML_
+_CSS_
+_JavaScript_
+_Bootstrap_
+_jQuery_
+
+## Further Exploration
+
+_Check out_ [Google][1] _for more robot translators._
+
+[1]: https://www.google.com/search?q=robot+translator&oq=robot+translator&aqs=chrome..69i57j0l5.4348j0j7&sourceid=chrome&ie=UTF-8
+
+### License
+
+*This work is licensed under the MIT license*
+
+Copyright (c) 2019 **_Lee Pedersen_**

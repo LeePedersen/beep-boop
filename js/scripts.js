@@ -14,7 +14,7 @@ function robotReply(input) {
       range.push(i);
     }
   }
-  return(range);
+  return(range.join(", "));
 }
 
 // User Interface Logic
