@@ -10,11 +10,11 @@ body {
 #doctor {
   background-image: url(img/doctor.png);
   background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 130px;
+  background-position: right;
   transform: scalex(-1);
-  position: fixed;
   width: 300px;
-  height: 800px;
+  height: 400px;
 }
 
 h1 {
@@ -30,13 +30,18 @@ h1 {
 #header {
   padding-left: 0px;
   padding-right: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(img/data2.png), url(img/borg2.png);
+  background-repeat: no-repeat;
+  background-position: left, right;
+  background-size: 150px, 150px;
 }
 
 #output {
   background-color: #eee;
   border-radius: 10px;
+  font-size: 16px;
 }
 
 label {

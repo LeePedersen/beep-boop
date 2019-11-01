@@ -15,7 +15,7 @@ function robotReply(input, nameInput) {
     if (!Number.isInteger(parseInt(numberArray[j]))) {
       var beep = "B";
       for (k = 0; k < numberArray[j].length; k++) {
-        beep = beep.concat("e");
+        beep = beep.concat("ee");
       }
       beep = beep.concat("p");
       range.push(beep);

@@ -47,9 +47,9 @@ _When users do not input a name, program returns Dave_
 _Input:_
 _Output: I'm sorry Dave, I can't do that_
 
-_For input that isn't an integer, program returns a beep with the same number of e's as the input length, and something involving their name_
+_For input that isn't an integer, program returns a beep with twice the amount of e's as the input length, and something involving their name_
 _Input: george, cats_
-_Output: beeeep you George_
+_Output: beeeep_
 
 ## Support and Contact Details
 
