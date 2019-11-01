@@ -12,6 +12,10 @@ function robotReply(input, nameInput) {
   }
 
   for (j = 0; j < numberArray.length; j++) {
+    if (!Number.isInteger(numberArray[j])) {
+      range.push('"' + numberArray[j] + '"' + 'is not a valid data type');
+      
+    }
     for (i = 0; i <= numberArray[j]; i++) {
       if (i.toString().includes("3")) {
         range.splice(i, 1, "I'm sorry, " + nameInput + ". I'm afraid I can't do that");
