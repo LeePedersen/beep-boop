@@ -12,7 +12,8 @@ function robotReply(input, nameInput) {
 
   for (j = 0; j < numberArray.length; j++) {
 
-    if (!Number.isInteger(numberArray[j])) {
+    if (!Number.isInteger(parseInt(numberArray[j]))) {
+  
       var beep = "B"
         for (k = 0; k < numberArray[j].length; k++) {
           beep = beep.concat("e");
@@ -21,10 +22,8 @@ function robotReply(input, nameInput) {
       range.push(beep);
     }
 
-    console.log(range);
-
-
     for (i = 0; i <= numberArray[j]; i++) {
+
       if (i.toString().includes("3")) {
         range.splice(i, 1, "I'm sorry, " + nameInput + ". I'm afraid I can't do that");
       } else if (i.toString().includes("2")) {
@@ -34,11 +33,10 @@ function robotReply(input, nameInput) {
       } else {
         range.push(i);
       }
+
     }
   }
   output.push(range.join(", "));
-  console.log(beep);
-
   return(output.join(", "));
 }
 
