@@ -23,15 +23,15 @@ _The program returns a range of numbers from 0 to the users inputted number
 _Input: "4"_
 _Output: "0, 1, 2, 3, 4"_
 
-_For input number 3, program returns "sorry dave"
+_The program returns "sorry dave" when input is 3_
 _Input: 3_
 _Output: "I'm sorry, Dave. I'm afraid I can't do that."_
 
-_For input numbers that contain 2's and 1's, program returns, respectively, boops and beeps
+_For input numbers that contain 2's and 1's, program returns, respectively, boops and beeps_
 _Input: 2_
 _Output: "boop"_
 
-_For multiple digit input numbers, program replaces whole number with replacement text
+_For multiple digit input numbers, program replaces whole number with replacement text_
 _Input: 14_
 _Output: beep_
 
@@ -62,7 +62,6 @@ _Output: jaaaaames that's not an integer_
 _For input that is not an integer where the name has no vowels, program simply returns the name and a reminder that they need to enter an integer_
 _Input: CJ, cats_
 _Output: CJ that's not an integer_
-
 
 ## Support and Contact Details
 
