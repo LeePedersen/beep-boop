@@ -35,6 +35,10 @@ _For multiple digit input numbers, program replaces whole number with replacemen
 Input: 14
 Output: beep_
 
+_For multiple input numbers separated by a space, program returns translation of each number
+Input: 1 2
+Output: 0 Beep 0 Beep Boop_
+
 
 ## Support and Contact Details
 
