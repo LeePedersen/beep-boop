@@ -7,6 +7,13 @@ body {
   background-image: url(img/voyager.jpg);
 }
 
+#doctor {
+  transform: scalex(-1);
+  width: 150px;
+  position: fixed;
+  bottom: 10px;
+}
+
 h1 {
   font-variant: small-caps;
   text-align: center;
@@ -27,5 +34,8 @@ h1 {
 #output {
   background-color: #eee;
   border-radius: 10px;
+}
 
+#numberLabel {
+  font-size: 20px;
 }
